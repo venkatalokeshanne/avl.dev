@@ -3,9 +3,9 @@ import nextI18NextConfig from '../../../next-i18next.config';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 import Link from 'next/link';
-import Head from 'next/head';
 import Footer from '@/components/sections/Footer';
 import { getPublishedPosts } from '@/lib/supabase';
+import SEO, { breadcrumbSchema } from '@/components/SEO';
 
 function formatDate(dateString) {
   if (!dateString) return '';
@@ -18,10 +18,17 @@ export default function BlogIndex({ posts }) {
 
   return (
     <>
-      <Head>
-        <title>Blog — avl.dev</title>
-        <meta name="description" content="Articles about web development, React, Docker, and more." />
-      </Head>
+      <SEO
+        title="Blog"
+        description="Articles by Venkata Anne about React.js, Node.js, Docker, DevOps, Java, and full stack web development. Tips, tutorials, and lessons from real projects."
+        path="/blog"
+        jsonLd={[
+          breadcrumbSchema([
+            { name: 'Home', path: '/' },
+            { name: 'Blog', path: '/blog' },
+          ]),
+        ]}
+      />
 
       <section className="min-h-screen px-6 py-20 md:py-28">
         <div className="max-w-3xl mx-auto">

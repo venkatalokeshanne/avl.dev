@@ -12,10 +12,16 @@ import Connect from '@/components/sections/Connect';
 import Contact from '@/components/sections/Contact';
 import Footer from '@/components/sections/Footer';
 import JourneyModal from '@/components/JourneyModal';
+import SEO, { personSchema, websiteSchema, profilePageSchema } from '@/components/SEO';
 
 export default function Home({ blogPosts }) {
   return (
     <>
+      <SEO
+        description="Venkata Lokesh Anne — Full stack developer & DevOps engineer with 7+ years of experience. React.js, Node.js, Docker, Kubernetes, CI/CD. Currently at Crédit Agricole CIB, Paris. Available for freelance & full-time roles worldwide."
+        path=""
+        jsonLd={[personSchema(), websiteSchema(), profilePageSchema()]}
+      />
       <JourneyModal />
       <Hero />
       <About />

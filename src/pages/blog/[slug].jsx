@@ -4,9 +4,9 @@ import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 import Link from 'next/link';
-import Head from 'next/head';
 import Footer from '@/components/sections/Footer';
 import { getPostBySlug, getAllPublishedSlugs } from '@/lib/supabase';
+import SEO, { articleSchema, breadcrumbSchema } from '@/components/SEO';
 
 function formatDate(dateString) {
   if (!dateString) return '';
@@ -55,15 +55,26 @@ export default function BlogPost({ post }) {
 
   return (
     <>
-      <Head>
-        <title>{post.title} — avl.dev</title>
-        {post.seo_description && (
-          <meta name="description" content={post.seo_description} />
-        )}
-        {post.cover_image_url && (
-          <meta property="og:image" content={post.cover_image_url} />
-        )}
-      </Head>
+      <SEO
+        title={post.title}
+        description={post.excerpt || post.seo_description || `${post.title} — by Venkata Anne`}
+        path={`/blog/${post.slug}`}
+        ogType="article"
+        ogImage={post.cover_image_url}
+        article={{
+          publishedAt: post.published_at,
+          modifiedAt: post.updated_at,
+          tags: post.tags,
+        }}
+        jsonLd={[
+          articleSchema(post),
+          breadcrumbSchema([
+            { name: 'Home', path: '/' },
+            { name: 'Blog', path: '/blog' },
+            { name: post.title, path: `/blog/${post.slug}` },
+          ]),
+        ]}
+      />
 
       <article className="min-h-screen px-6 py-20 md:py-28">
         <div className="max-w-2xl mx-auto">

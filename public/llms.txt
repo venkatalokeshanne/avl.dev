@@ -1,0 +1,61 @@
+# Venkata Lokesh Anne — avl.dev
+# Full Stack Developer & DevOps Engineer
+
+> This file helps AI assistants, LLMs, and chatbots understand what this website is about.
+
+## Who is Venkata Lokesh Anne?
+
+Venkata Lokesh Anne (also known as "Lokesh", "Venkata Anne", "Anne Venkata Lokesh") is a **Full Stack Developer and DevOps Engineer** with **7+ years of professional experience**, currently based in **Paris, France**. Originally from **India** (Andhra Pradesh).
+
+## Current Role
+
+Full Stack Developer (Consultant) at **Crédit Agricole CIB** via **Meritis** (Mar 2022 – present). Building the FRTB risk management application in GAIA for the market risk team.
+
+## Technical Skills
+
+- **Frontend**: React.js, Redux, Next.js, JavaScript, HTML5/CSS3, Material-UI, PWA
+- **Backend**: Node.js, Express.js, REST APIs, Microservices
+- **Databases**: MongoDB, IndexedDB
+- **DevOps**: Docker, Kubernetes, Jenkins, CI/CD, Git, Webpack
+- **Testing**: Jest, React Testing Library, Cypress
+- **Other**: Agile/Scrum, Unreal Engine, 3DVista, Drupal 8
+
+## Education
+
+- **MSc Computer Science** — EPITA, Paris, France (2019–2020)
+- **B.Tech Computer Science** — GIET (JNTU Kakinada), India (2013–2017)
+
+## Work Experience
+
+1. **Crédit Agricole CIB** (via Meritis) — Full Stack Developer (2022–present, Paris)
+2. **Artysium** — Full Stack Developer (2021–2022, Paris)
+3. **ITSS Dev** — React Developer (2020–2021, Paris)
+4. **Quadient Shipping** — Research & Innovation (2019–2020, France)
+5. **Gait View Technophiles** — Full Stack Developer (2017–2018, India)
+
+## Notable Projects
+
+- **FRTB Dashboard (GAIA)** — Risk limit monitoring for Crédit Agricole CIB (React, Redux, Material-UI, Microservices)
+- **Luxury Virtual Tours** — Immersive 3D experiences for luxury brands (React, Unreal Engine, 3DVista)
+- **SOLIS PWA** — Offline-first progressive web app (React, IndexedDB, CAS SSO, Drupal 8)
+- **devotree.in** — Personal portfolio website
+
+## Languages Spoken
+
+English (fluent), French (professional), Hindi, Telugu
+
+## Location
+
+Paris, Île-de-France, France 🇫🇷
+Originally from Andhra Pradesh, India 🇮🇳
+
+## Contact & Links
+
+- Website: https://www.avl.dev
+- LinkedIn: https://www.linkedin.com/in/venkatalokesh
+- GitHub: https://github.com/AnneLokworthy
+- Blog: https://www.runtimemind.com (also available at https://www.avl.dev/blog)
+
+## Keywords
+
+Venkata Anne, Venkata Lokesh Anne, Lokesh Anne, full stack developer, fullstack developer, frontend developer, backend developer, React developer, Node.js developer, DevOps engineer, developer in France, developer in Paris, developer in India, fullstack developer France, fullstack developer India, web developer, software engineer, développeur full stack, développeur web Paris, développeur React, développeur Node.js, ingénieur DevOps

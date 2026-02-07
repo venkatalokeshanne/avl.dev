@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import Image from 'next/image';
 import Link from 'next/link';
 import Footer from '@/components/sections/Footer';
+import SEO, { breadcrumbSchema } from '@/components/SEO';
 
 const projectsData = [
   {
@@ -63,6 +64,18 @@ export default function ProjectDetail() {
 
   return (
     <>
+      <SEO
+        title={t(`projects.${project.key}.name`)}
+        description={t(`projects.${project.key}.desc`)}
+        path={`/work/${slug}`}
+        jsonLd={[
+          breadcrumbSchema([
+            { name: 'Home', path: '/' },
+            { name: 'Projects', path: '/work' },
+            { name: t(`projects.${project.key}.name`), path: `/work/${slug}` },
+          ]),
+        ]}
+      />
       <section className="min-h-screen px-6">
         <div className="max-w-3xl mx-auto w-full pt-28 pb-16">
           {/* Back link */}

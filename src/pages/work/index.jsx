@@ -3,6 +3,7 @@ import nextI18NextConfig from '../../../next-i18next.config';
 import { useTranslation } from 'next-i18next';
 import Link from 'next/link';
 import Footer from '@/components/sections/Footer';
+import SEO, { breadcrumbSchema } from '@/components/SEO';
 
 const projects = [
   { key: 'proj_1', color: 'accent', tags: ['React.js', 'Redux', 'Material-UI', 'Cypress'] },
@@ -16,6 +17,17 @@ export default function Work() {
 
   return (
     <>
+      <SEO
+        title="Projects"
+        description="Full stack projects by Venkata Anne — FRTB risk dashboard at Crédit Agricole CIB, luxury virtual tours, offline-first PWAs, and more. React.js, Node.js, Docker, Kubernetes."
+        path="/work"
+        jsonLd={[
+          breadcrumbSchema([
+            { name: 'Home', path: '/' },
+            { name: 'Projects', path: '/work' },
+          ]),
+        ]}
+      />
       <section className="px-6">
         <div className="max-w-3xl mx-auto w-full pt-28 pb-16">
           <p className="comment mb-4">{'// '}{t('work.comment')}</p>

@@ -3,12 +3,26 @@ import nextI18NextConfig from '../../next-i18next.config';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 import Footer from '@/components/sections/Footer';
+import SEO, { personSchema, breadcrumbSchema } from '@/components/SEO';
 
 export default function AboutPage() {
   const { t } = useTranslation('common');
 
   return (
     <>
+      <SEO
+        title="About"
+        description="Venkata Anne — Full stack developer & DevOps engineer based in Paris. MSc from EPITA, B.Tech from GIET (India). 7+ years building React, Node.js, Docker & Kubernetes applications. Fluent in English, French, Hindi, Telugu."
+        path="/about"
+        ogType="profile"
+        jsonLd={[
+          personSchema(),
+          breadcrumbSchema([
+            { name: 'Home', path: '/' },
+            { name: 'About', path: '/about' },
+          ]),
+        ]}
+      />
       <section className="min-h-screen flex items-center px-6">
         <div className="max-w-3xl mx-auto w-full pt-24">
           <p className="comment mb-4">{'// '}{t('about_page.comment')}</p>

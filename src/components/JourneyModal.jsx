@@ -8,7 +8,7 @@ const slides = [
     logo: null,
     company: null,
     terminal: '$ whoami',
-    title: "Hey, I'm Lokesh.",
+    title: "Hey, I'm Venkata.",
     body: "Welcome to my corner of the internet. Let me walk you through my journey — from a small town in India to building banking software in Paris.",
     more: null,
     detail: '// grab a coffee, this will be quick ☕',
