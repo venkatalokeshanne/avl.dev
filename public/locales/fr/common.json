@@ -1,0 +1,259 @@
+{
+  "nav": {
+    "home": ".accueil()",
+    "work": ".travail()",
+    "about": ".à_propos()",
+    "contact": ".contact()"
+  },
+  "hero": {
+    "greeting": "Salut, je suis",
+    "name": "Lokesh",
+    "terminal_response": "venkata — développeur full stack",
+    "status": "ouvert aux opportunités",
+    "role": "Développeur full stack — applications web complètes avec React.js, Node.js et pratiques DevOps modernes.",
+    "tagline": "7+ ans à livrer des produits — des tableaux de bord de risque bancaire aux visites virtuelles de luxe en passant par les PWA hors-ligne.",
+    "stat_years": "ans d'expérience",
+    "stat_projects": "projets livrés",
+    "stat_coffee": "tasses de café",
+    "cta_hello": "dire bonjour",
+    "cta_work": "voir mon travail",
+    "cta_scroll": "en savoir plus"
+  },
+  "about": {
+    "comment": "un peu sur moi",
+    "heading": "Je construis pour le web.",
+    "description": "Je suis développeur full stack avec 7+ ans d'expérience professionnelle, actuellement en charge de l'application FRTB dans GAIA pour l'équipe risque de marché de Crédit Agricole CIB (via Meritis). Je travaille sur tout le stack — frontends React, backends Node.js/Express, bases de données MongoDB et pipelines DevOps avec Docker, Jenkins et Kubernetes.",
+    "experience": "Titulaire d'un Master en Informatique d'EPITA, Paris. J'ai travaillé dans plusieurs secteurs — visites virtuelles de luxe avec Unreal Engine chez Artysium, PWA hors-ligne chez ITSS Dev, optimisation d'espace chez Quadient, et systèmes ERP scolaires chez Gait View en Inde.",
+    "personal": "Originaire d'Inde, basé à Paris. En dehors du code, vous me trouverez en train de voyager, lire, camper, ou apprendre de nouvelles langues. Je parle anglais, hindi, français et télougou.",
+    "quick_facts": "en bref",
+    "fact_name": "Venkata",
+    "fact_role": "Développeur Full Stack",
+    "fact_location": "Paris, France",
+    "fact_focus": "React · Node.js · Cloud",
+    "fact_langs": "EN · HI · FR · TE"
+  },
+  "experience": {
+    "comment": "mon parcours",
+    "heading": "Expérience.",
+    "description": "Chaque poste m'a apporté quelque chose de nouveau — voici mon parcours professionnel de l'Inde à Paris.",
+    "exp_5": {
+      "role": "Développeur Full Stack (Consultant)",
+      "company": "CACIB — Crédit Agricole CIB (via Meritis)",
+      "period": "Mar 2022 – présent · Paris",
+      "desc": "Construction de l'application FRTB dans GAIA de bout en bout — frontend React.js/Redux avec grilles de données et formulaires complexes, résolution de bugs backend et ajout d'endpoints API pour le microservice frtb-data, gestion des pipelines CI/CD avec Docker et Jenkins. Tests unitaires et d'intégration avec Jest, React Testing Library et Cypress. Travail avec l'équipe MRR SA sur le Risk Limit Dashboard en sprints Agile de 3 semaines."
+    },
+    "exp_4": {
+      "role": "Développeur Full Stack",
+      "company": "Artysium",
+      "period": "Juin 2021 – Fév 2022 · Paris",
+      "desc": "Construction d'une plateforme de visites virtuelles en ligne pour des marques de luxe avec React.js, Redux Toolkit et 3DVista. Intégration d'Unreal Engine dans un site e-commerce pour des expériences produits 3D immersives. Création de composants réutilisables avec tests automatisés. Optimisation des temps de chargement pour les éléments graphiques lourds. Collaboration avec les équipes backend, design et produit en sprints Agile."
+    },
+    "exp_3": {
+      "role": "Développeur React",
+      "company": "ITSS Dev",
+      "period": "Sep 2020 – Juin 2021 · Paris",
+      "desc": "Développement d'un site web hors-ligne avec React.js, IndexedDB pour le stockage local et des fonctionnalités PWA. Mise en place de l'authentification Single Sign-On basée sur CAS. Intégration du système de gestion documentaire IJBox avec les plateformes clients. Développement et gestion de sites web avec Drupal 8 pour des clients incluant IJBox, Verrecchia et DFM Avocat."
+    },
+    "exp_2": {
+      "role": "Recherche & Innovation",
+      "company": "Quadient Shipping",
+      "period": "2019 – 2020 · France",
+      "desc": "Travail sur l'optimisation d'espace — utilisation d'algorithmes pour minimiser le volume des colis et les coûts d'expédition. Optimisation du positionnement des colis dans les palettes et camions, réduction du gaspillage et amélioration de l'efficacité logistique."
+    },
+    "exp_1": {
+      "role": "Développeur Full Stack",
+      "company": "Gait View Technophiles Pvt Ltd",
+      "period": "Jan 2017 – Déc 2018 · Inde",
+      "desc": "Construction d'un système ERP de gestion scolaire de bout en bout — implémentation de la logique métier, APIs serveur avec JSP, pages web dynamiques avec JavaScript et jQuery, et intégration de base de données. Développement du module académique pour l'inscription des étudiants et les frais de scolarité, et intégration des systèmes de gestion des paiements."
+    }
+  },
+  "skills": {
+    "comment": "mes compétences",
+    "heading": "Compétences & technologies.",
+    "description": "Les outils que j'utilise au quotidien pour créer des applications full stack fiables et modernes."
+  },
+  "projects": {
+    "comment": "travaux sélectionnés",
+    "heading": "Projets en vedette.",
+    "description": "Quelques projets marquants — chacun a résolu un vrai problème.",
+    "see_all": "voir tous les projets",
+    "proj_1": {
+      "name": "Tableau de Bord FRTB — GAIA",
+      "slug": "frtb-dashboard",
+      "file": "frtb-gaia",
+      "status": "● en ligne",
+      "desc": "L'interface utilisateur FRTB dans GAIA pour l'équipe risque de marché de Crédit Agricole CIB. Tableaux de données complexes, formulaires dynamiques, microservices — construit pour les analystes gérant les limites de risque.",
+      "long_desc": "Le projet FRTB au sein de GAIA est une application critique utilisée par l'équipe risque de marché (MRR SA) de Crédit Agricole CIB pour surveiller et gérer les limites de risque de trading conformément à la réglementation Fundamental Review of the Trading Book.\n\nJe construis le frontend avec React.js et Redux pour la gestion d'état, Material-UI pour la bibliothèque de composants, et React Table pour les grilles de données complexes avec tri, pagination et filtrage. Je conçois et implémente également des formulaires complexes avec React Forms pour la saisie et la validation des données.\n\nAu-delà du frontend, je résous des bugs backend et ajoute de nouveaux endpoints API pour le microservice frtb-data, assurant une intégration fluide entre l'UI et les services backend. J'applique des techniques de performance comme le lazy loading et la mémoïsation pour maintenir l'application rapide. Tout le travail suit des sprints Agile de 3 semaines avec des tests approfondis via Jest, React Testing Library et Cypress.",
+      "role": "Développeur Full Stack (Consultant via Meritis)",
+      "company": "CACIB — Crédit Agricole CIB",
+      "period": "Mar 2022 – présent",
+      "highlights": [
+        "Construction d'une UI dynamique et réactive avec React.js et Redux, axée sur la performance et l'expérience utilisateur",
+        "Conception de formulaires complexes avec React Forms pour la saisie et la validation multi-niveaux",
+        "Intégration de React Table pour les grilles de données avec tri, pagination et filtrage",
+        "Utilisation de Material-UI pour des composants modernes et responsifs",
+        "Résolution de bugs backend et ajout de nouveaux endpoints API pour le microservice frtb-data",
+        "Application du lazy loading et de la mémoïsation pour améliorer la vitesse et le rendu",
+        "Collaboration avec l'équipe MRR SA sur le Risk Limit Dashboard en sprints Agile de 3 semaines",
+        "Création de tests unitaires et d'intégration avec Jest, React Testing Library et Cypress",
+        "Validation de l'intégration backend avec des tests API"
+      ]
+    },
+    "proj_2": {
+      "name": "Visites Virtuelles de Luxe",
+      "slug": "virtual-tour",
+      "file": "virtual-tour",
+      "status": "● livré",
+      "desc": "Des visites virtuelles immersives pour des marques de luxe — expériences produits 3D avec React, Redux Toolkit, Unreal Engine et 3DVista.",
+      "long_desc": "Chez Artysium, j'ai construit une plateforme de visites virtuelles en ligne pour les utilisateurs de marques de luxe, leur permettant de découvrir des produits dans un environnement 3D immersif. L'interface a été conçue pour offrir une expérience utilisateur premium avec une attention particulière à la fluidité et la qualité visuelle pour un public exigeant.\n\nJ'ai utilisé React.js avec Redux Toolkit pour le frontend, intégré 3DVista pour le rendu des visites virtuelles, et embarqué Unreal Engine dans un site e-commerce pour créer des interactions produits photoréalistes — comme si les utilisateurs étaient dans un magasin physique.\n\nJe me suis concentré sur la construction de composants réutilisables et bien structurés avec des tests automatisés pour la fiabilité. L'optimisation des performances était critique — j'ai implémenté des stratégies pour minimiser les temps de chargement tout en maintenant une haute qualité graphique. J'ai travaillé en étroite collaboration avec les équipes backend, design et produit en méthodologie Agile.",
+      "role": "Développeur Full Stack",
+      "company": "Artysium",
+      "period": "Juin 2021 – Fév 2022",
+      "highlights": [
+        "Construction de visites virtuelles immersives avec React.js et Redux Toolkit pour des marques de luxe",
+        "Intégration d'Unreal Engine dans un site e-commerce pour des interactions produits 3D réalistes",
+        "Utilisation de 3DVista pour le rendu des visites avec navigation fluide et surcouches médias",
+        "Création de composants réutilisables avec tests unitaires et d'intégration automatisés",
+        "Optimisation des temps de chargement et de la réactivité pour les éléments graphiques lourds",
+        "Conception d'une UX premium avec attention à la fluidité et la qualité visuelle",
+        "Collaboration avec les équipes backend, design et produit en sprints Agile"
+      ]
+    },
+    "proj_3": {
+      "name": "SOLIS — PWA Hors-Ligne",
+      "slug": "solis-pwa",
+      "file": "solis-pwa",
+      "status": "● déployé",
+      "desc": "Une application web hors-ligne construite avec React.js, IndexedDB et des fonctionnalités PWA. Mise en place du SSO CAS et intégration du système de gestion documentaire IJBox.",
+      "long_desc": "Chez ITSS Dev, j'ai développé un site web hors-ligne avec React.js, IndexedDB pour le stockage local et des fonctionnalités PWA (Progressive Web App) pour une expérience utilisateur améliorée. Les utilisateurs peuvent travailler sans internet et les données persistent localement jusqu'au rétablissement de la connexion.\n\nJ'ai également mis en place l'authentification Single Sign-On basée sur CAS pour la gestion centralisée des utilisateurs à travers les applications de l'entreprise, et intégré IJBox — une solution de gestion documentaire — avec les systèmes clients pour la consultation et la gestion fluide des documents.\n\nDe plus, j'ai développé et géré des sites web avec Drupal 8 pour plusieurs clients incluant IJBox, Verrecchia et DFM Avocat, en me concentrant sur l'optimisation UX, la gestion de contenu et la personnalisation de modules.",
+      "role": "Développeur React",
+      "company": "ITSS Dev",
+      "period": "Sep 2020 – Juin 2021",
+      "highlights": [
+        "Construction d'un site web hors-ligne avec React.js, IndexedDB et fonctionnalités PWA",
+        "Mise en place du Single Sign-On basé sur CAS pour un accès utilisateur sécurisé et centralisé",
+        "Intégration du système de gestion documentaire IJBox avec les plateformes clients",
+        "Développement et gestion de sites Drupal 8 pour IJBox, Verrecchia et DFM Avocat",
+        "Optimisation UX, gestion de contenu et personnalisation de modules",
+        "Gestion de projets multi-clients avec exigences spécifiques et besoins de stabilité"
+      ]
+    },
+    "proj_4": {
+      "name": "devotree.in — Portfolio",
+      "slug": "devotree-portfolio",
+      "file": "devotree",
+      "status": "● en ligne",
+      "desc": "Mon site portfolio interactif et multilingue présentant mes projets et compétences — construit avec React.js, design responsive pour tous les appareils.",
+      "long_desc": "J'ai développé un site portfolio interactif (www.devotree.in) pour présenter mes projets et compétences. Le site a été construit avec HTML, CSS, JavaScript et React.js avec un design entièrement responsive qui fonctionne sur tous les appareils.\n\nLe portfolio propose une interface moderne et épurée avec des vitrines de projets, des mises en avant de compétences et des fonctionnalités de contact — conçu pour donner aux visiteurs une vision claire de mon expérience professionnelle.",
+      "role": "Projet Personnel",
+      "company": "Personnel",
+      "period": "2024",
+      "highlights": [
+        "Construction d'un portfolio interactif et multilingue avec React.js",
+        "Implémentation du design responsive adapté à toutes les tailles d'écran",
+        "Présentation des projets et compétences avec une UI moderne et épurée",
+        "Déployé et maintenu sur www.devotree.in"
+      ]
+    }
+  },
+  "services": {
+    "comment": "comment je peux aider",
+    "heading": "Ce que je fais.",
+    "description": "Que vous ayez besoin d'un nouveau produit ou d'améliorer un existant — voici ce que j'apporte.",
+    "frontend": {
+      "title": "Développement Frontend",
+      "desc": "React.js, Redux, Next.js — je construis des interfaces responsives et performantes avec Material-UI, des tableaux de données complexes et une couverture de tests rigoureuse."
+    },
+    "backend": {
+      "title": "Backend & APIs",
+      "desc": "Node.js, Express.js — je développe des APIs RESTful, des microservices et de la logique serveur avec MongoDB. J'ai corrigé des bugs backend et ajouté des endpoints sur des systèmes en production."
+    },
+    "fullstack": {
+      "title": "Produits Full Stack",
+      "desc": "Du schéma de base de données au pipeline de déploiement — je gère tout le stack. J'ai livré des produits complets de zéro en production avec Docker, Jenkins et CI/CD."
+    },
+    "consulting": {
+      "title": "Performance & Qualité",
+      "desc": "Je peux auditer des applications existantes pour améliorer la vitesse, la couverture de tests et l'expérience utilisateur. Lazy loading, mémoïsation, tests E2E Cypress — je rends les apps plus rapides et fiables."
+    }
+  },
+  "philosophy": {
+    "comment": "ma façon de travailler",
+    "heading": "Mon approche.",
+    "description": "Les valeurs qui guident mon travail et ce que je livre.",
+    "clean_code": {
+      "title": "La qualité d'abord",
+      "desc": "J'écris du code propre et bien testé. Chaque fonctionnalité est accompagnée de tests unitaires et d'intégration avec Jest, RTL et Cypress."
+    },
+    "ship_it": {
+      "title": "Livrer, puis améliorer",
+      "desc": "Je crois en la livraison de logiciel fonctionnel dans les délais. Sprints Agile de 3 semaines, deadlines claires et amélioration continue."
+    },
+    "keep_learning": {
+      "title": "Toujours en progression",
+      "desc": "De l'Inde à EPITA à Paris en passant par la banque — je cherche toujours à apprendre davantage et à relever de nouveaux défis."
+    },
+    "user_first": {
+      "title": "Centré sur les personnes",
+      "desc": "Je développe en pensant à l'utilisateur final. Qu'il s'agisse d'un analyste risque ou d'un acheteur de luxe, l'expérience compte."
+    }
+  },
+  "connect": {
+    "comment": "me trouver en ligne",
+    "heading": "Connectons-nous.",
+    "description": "Je suis toujours heureux de discuter — que ce soit pour un poste, un projet, ou simplement pour dire bonjour.",
+    "availability": "ouvert aux nouvelles opportunités",
+    "response_time": "// répond généralement sous 24 heures"
+  },
+  "contact": {
+    "comment": "me contacter",
+    "heading": "Envoyez-moi un message.",
+    "description": "Vous avez un poste, un projet, ou une question ? J'aimerais avoir de vos nouvelles.",
+    "placeholder_name": "votre nom",
+    "placeholder_email": "votre courriel",
+    "placeholder_message": "votre message...",
+    "send": "envoyer"
+  },
+  "footer": {
+    "wip": "// toujours en construction",
+    "thanks": "Merci de votre visite.",
+    "about": "à propos",
+    "work": "mon travail"
+  },
+  "work": {
+    "comment": "mon travail",
+    "heading": "Projets.",
+    "description": "Une collection de projets sur lesquels j'ai travaillé — chacun un défi différent et une expérience d'apprentissage.",
+    "coming_soon": "d'autres projets bientôt..."
+  },
+  "about_page": {
+    "comment": "à propos de moi",
+    "heading": "Qui je suis.",
+    "description": "Développeur full stack avec 7+ ans d'expérience, actuellement en charge de l'application FRTB chez Crédit Agricole CIB. Je travaille sur tout le stack — frontends React, backends Node.js, bases de données MongoDB et DevOps avec Docker, Jenkins & Kubernetes. Master d'EPITA, Paris. Originaire d'Inde.",
+    "education_title": "formation",
+    "edu_1_degree": "Master Informatique",
+    "edu_1_school": "EPITA — Paris, France",
+    "edu_1_period": "2019 – 2020",
+    "edu_2_degree": "B.Tech Informatique",
+    "edu_2_school": "Godavari Institute of Engineering & Technology (JNTU Kakinada)",
+    "edu_2_period": "2013 – 2017",
+    "languages_title": "langues parlées"
+  },
+  "project_detail": {
+    "back": "← retour aux projets",
+    "role_label": "mon rôle",
+    "company_label": "entreprise",
+    "period_label": "période",
+    "tech_label": "technologies",
+    "highlights_label": "contributions clés",
+    "not_found": "Projet introuvable.",
+    "not_found_desc": "Le projet que vous cherchez n'existe pas.",
+    "go_back": "← retour à l'accueil"
+  },
+  "blog": {
+    "comment": "mes articles",
+    "heading": "Blog.",
+    "description": "J'écris sur le développement web, les patterns React, et les leçons tirées de la construction de vrais produits. Publié sur RuntimeMind.",
+    "see_all": "voir tous les articles sur RuntimeMind"
+  }
+}
